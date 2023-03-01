@@ -1,0 +1,16 @@
+---
+title: "My Bookdown"
+author: "Erin Jackson"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+output: bookdown::gitbook
+documentclass: book
+description: "This is an example using the bookdown package. This first document is the index/cover page for the bookdown."
+---
+
+# My Intro {-} 
+This first hashtag will make this the first page. But, we don't want to the cover page to be the first page. So add the '{-}'.
+
+This is the example of the bookdown document.
+
+You only want the YAML information on the top of the index file, not the other chapters.
